@@ -1,0 +1,61 @@
+body{
+  background-color: #FFFFFF;
+}
+.multicolor{
+  background-image: linear-gradient(to left, #950101, #2A3492);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  font-family: 'Press Start 2P', cursive;
+}
+.my_name_tag{
+  font-size: 4rem;
+}
+.ic{
+  height: 2rem;
+  color: #950101;
+}
+a{
+  text-decoration: none;
+}
+.a{
+  margin: auto;
+  text-align: center;
+}
+.intro{
+  width: 100%;
+}
+.b{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+.btn{
+  background: transparent;
+  border: none;
+}
+.navbar{
+  padding: 2% 0 0 0;
+}
+.nav-item{
+  padding: 0 16px 0 16px;
+}
+.d-block{
+  height: 24rem;
+  margin: auto;
+}
+.music{
+  margin: 2rem;
+}
+@media (max-width:900px) {
+  .d-block{
+    margin: auto;
+  }
+  iframe{
+    height: 12rem;
+    width: 4rem;
+  }
+}
+p{
+  text-align: center;
+}
